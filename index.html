@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>MY Portfolio</title>
+  </head>
+  <body>
+    <nav>
+    <div class="nav__bar">
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">Portfolio</a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  <header class="section__container header__container" id="home">
+    <img src="imgs/avatar.png" alt="header">
+    <h1>I am a <span>Front-End</span> Developer <br />These are my <span>projects</span>.</h1>
+    <p>
+        As a Front-End Developer, I focus on crafting clean, responsive, and interactive web experiences. This portfolio
+        showcases my work, where design meets functionality. Dive into my projects, and see how I bring ideas to life through
+        code.
+    </p>
+    <div class="header__btns">
+      <button class="btn">Get in Touch</button>
+      <a href="imgs/CV.pdf" download>Download CV</a>
+    </div>
+  </header>
+
+  <section class="section__container skill__container">
+    <h2>Experiences With</h2>
+    <ul class="skill__flex">
+      <li>
+        <span><i class="ri-html5-fill"></i></span>
+      </li>
+      <li>
+        <span><i class="ri-css3-fill"></i></span>
+      </li>
+      <li>
+        <span><i class="ri-tailwind-css-fill"></i></span>
+      </li>
+      <li>
+        <span><i class="ri-bootstrap-fill"></i></span>
+      </li>
+      <li>
+        <span><i class="ri-javascript-fill"></i></span>
+      </li>
+      <li>
+        <span><i class="ri-reactjs-line"></i></span>
+      </li>
+      <li>
+        <span><i class="ri-nextjs-fil"></i></span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="section__container project__container" id="project" >
+    <h2>PROJECT</h2>
+    <div class="project__grid">
+      <div class="project__card">
+        <img src="imgs/image.png" alt="project">
+        <div class="project__card__details">
+          <div>
+            <p>Construction Website</p>
+            <h4>Tools</h4>
+            <h4>HTML, CSS, SCSS, javaScript</h4>
+          </div>
+          <a href="https://github.com/seadadevo/Construction-Website"><i class="ri-arrow-right-up-line"></i></a>
+        </div>
+      </div>
+      <div class="project__card">
+        <img src="imgs/image4.png" alt="project">
+        <div class="project__card__details">
+          <div>
+            <p>E-commerce Website</p>
+            <h4>Tools</h4>
+            <h4>Html, CSS, TailWind</h4>
+          </div>
+          <a href="https://github.com/seadadevo/Ecommerce-Website"><i class="ri-arrow-right-up-line"></i></a>
+        </div>
+      </div>
+      <div class="project__card">
+        <img src="imgs/image2.png" alt="project">
+        <div class="project__card__details">
+          <div>
+            <p>Kasper Website</p>
+            <h4>Tools</h4>
+            <h4>HTML, CSS</h4>
+          </div>
+          <a href="https://github.com/seadadevo/Kasper---One-Page-Creative"><i class="ri-arrow-right-up-line"></i></a>
+        </div>
+      </div>
+      <div class="project__card">
+        <img src="imgs/image3.png" alt="project">
+        <div class="project__card__details">
+          <div>
+            <p>Leon Agency - Website</p>
+            <h4>Tools</h4>
+            <h4>HTML, CSS</h4>
+          </div>
+          <a href="https://github.com/seadadevo/Leon---PSD-Agency-Template"><i class="ri-arrow-right-up-line"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="section__container footer__container" id="contact">
+      <h2>Contact</h2>
+      <p>I'd love to hear from you! Whether you have a project in mind, a
+      question about my work, or just want to connect, feel free to reach
+      out. You can contact me via email or through my social media channels.
+      I am always excited to collaborate with like-minded individuals and
+      explore new opportunities.</p>
+      <div class="mail__to">
+        <a href="#">
+          <span><i class="ri-mail-line"></i></span>
+          ahmedmagdee04@gmail.com
+        </a>
+      </div>
+      <ul class="footer__socials">
+        <li>
+          <a href="#"><i class="ri-google-fill"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ri-twitter-x-fill"></i></a>
+        </li>
+        <li>
+          <a href="#"><i class="ri-linkedin-box-fill"></i></a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
